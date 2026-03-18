@@ -9,3 +9,21 @@
     height: 70px;
     margin-right: 10px;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.list-center {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
+
+@media (max-width: 640px) {
+    .countries {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
